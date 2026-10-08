@@ -1,0 +1,8 @@
+Windows profile: scratch trust removed; unrelated entry and every other key retained.
+René: scratch trust removed; unrelated entry and every other key retained.
+Probe & Name: scratch trust removed; unrelated entry and every other key retained.
+René & Name: scratch trust removed; unrelated entry and every other key retained.
+interactive profile: scratch trust removed; unrelated entry and every other key retained.
+Native fixture trust entries removed; unrelated Linux key retained.
+Captain-supplied supporting observation, not independently verified in this run: on 2026-10-08 firstmate spawned a Gemini 3.8 Flash agy worker into a fresh worktree with this trust change; it reached working without a dialog.
+Test-driver setup corrections: wslpath resolves the symlink, so duplicate oracle paths were deduplicated; absolute private socket exceeded UNIX socket length, so a worktree-relative private socket was used. Both checks were re-driven successfully. No product source changes.

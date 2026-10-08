@@ -1,0 +1,23 @@
+{
+  "windows": {
+    "trustedWorkspaces": [
+      "C:\\already-trusted",
+      "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4D5VRXXRT657YETY0SJJ1MT\\.agy-live.aIUmF3\\worktree"
+    ],
+    "model": "preserve-existing-model",
+    "custom": {
+      "nested": [
+        1,
+        true,
+        "value"
+      ]
+    }
+  },
+  "linux": {
+    "linuxUntouched": true,
+    "trustedWorkspaces": [
+      "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree",
+      "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree"
+    ]
+  }
+}

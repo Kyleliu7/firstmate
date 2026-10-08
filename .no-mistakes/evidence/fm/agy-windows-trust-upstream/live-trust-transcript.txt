@@ -1,0 +1,165 @@
+REAL CMD Unicode environment probe: USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4D5VRXXRT657YETY0SJJ1MT\.test-temp\live-trust\profiles\Probe Name
+
+WINDOWS Probe Name: trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt)
+
+{
+  "model": "preserve me",
+  "custom": {
+    "enabled": true
+  },
+  "trustedWorkspaces": [
+    "C:\\already-trusted",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4D5VRXXRT657YETY0SJJ1MT\\.test-temp\\live-trust\\wt"
+  ]
+}
+
+Linux store remained {"untouched":true}
+
+REFUSED .test-temp/live-trust/project: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/project' is a primary checkout, not an isolated worktree
+
+REFUSED .test-temp/live-trust/linux-home: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/linux-home' is the home directory, not a task worktree
+
+REFUSED .test-temp/live-trust/wt/sub: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt/sub' is not a worktree root (its root is '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt')
+
+REFUSED .test-temp/live-trust/other-wt: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/other-wt' is not a worktree of project '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/project'
+
+UNPROVEN PROFILE: error: refusing to pre-register agy trust: cmd.exe did not return an absolute Windows USERPROFILE
+
+INACCESSIBLE PROFILE: error: refusing to pre-register agy trust: Windows agy's USERPROFILE is not an accessible directory
+
+CORRUPT STORE: error: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+error: refusing to pre-register agy trust: could not record trust for '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt' in '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/profiles/Probe Name/.gemini/antigravity-cli/settings.json'
+
+PE WITHOUT EXE SUFFIX: trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt)
+
+REAL CMD Unicode environment probe: USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4D5VRXXRT657YETY0SJJ1MT\.test-temp\live-trust\profiles\René
+
+WINDOWS René: trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt)
+
+{
+  "model": "preserve me",
+  "custom": {
+    "enabled": true
+  },
+  "trustedWorkspaces": [
+    "C:\\already-trusted",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4D5VRXXRT657YETY0SJJ1MT\\.test-temp\\live-trust\\wt"
+  ]
+}
+
+Linux store remained {"untouched":true}
+
+BEFORE REVIEW FIX René: exit 1; error: refusing to pre-register agy trust: Windows agy's USERPROFILE is not an accessible directory
+
+REFUSED .test-temp/live-trust/project: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/project' is a primary checkout, not an isolated worktree
+
+REFUSED .test-temp/live-trust/linux-home: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/linux-home' is the home directory, not a task worktree
+
+REFUSED .test-temp/live-trust/wt/sub: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt/sub' is not a worktree root (its root is '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt')
+
+REFUSED .test-temp/live-trust/other-wt: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/other-wt' is not a worktree of project '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/project'
+
+UNPROVEN PROFILE: error: refusing to pre-register agy trust: cmd.exe did not return an absolute Windows USERPROFILE
+
+INACCESSIBLE PROFILE: error: refusing to pre-register agy trust: Windows agy's USERPROFILE is not an accessible directory
+
+CORRUPT STORE: error: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+error: refusing to pre-register agy trust: could not record trust for '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt' in '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/profiles/René/.gemini/antigravity-cli/settings.json'
+
+PE WITHOUT EXE SUFFIX: trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt)
+
+REAL CMD Unicode environment probe: USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4D5VRXXRT657YETY0SJJ1MT\.test-temp\live-trust\profiles\Probe & Name
+
+WINDOWS Probe & Name: trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt)
+
+{
+  "model": "preserve me",
+  "custom": {
+    "enabled": true
+  },
+  "trustedWorkspaces": [
+    "C:\\already-trusted",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4D5VRXXRT657YETY0SJJ1MT\\.test-temp\\live-trust\\wt"
+  ]
+}
+
+Linux store remained {"untouched":true}
+
+BEFORE REVIEW FIX Probe & Name: exit 1; error: refusing to pre-register agy trust: could not resolve Windows agy's USERPROFILE within 5 seconds
+
+REFUSED .test-temp/live-trust/project: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/project' is a primary checkout, not an isolated worktree
+
+REFUSED .test-temp/live-trust/linux-home: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/linux-home' is the home directory, not a task worktree
+
+REFUSED .test-temp/live-trust/wt/sub: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt/sub' is not a worktree root (its root is '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt')
+
+REFUSED .test-temp/live-trust/other-wt: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/other-wt' is not a worktree of project '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/project'
+
+UNPROVEN PROFILE: error: refusing to pre-register agy trust: cmd.exe did not return an absolute Windows USERPROFILE
+
+INACCESSIBLE PROFILE: error: refusing to pre-register agy trust: Windows agy's USERPROFILE is not an accessible directory
+
+CORRUPT STORE: error: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+error: refusing to pre-register agy trust: could not record trust for '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt' in '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/profiles/Probe & Name/.gemini/antigravity-cli/settings.json'
+
+PE WITHOUT EXE SUFFIX: trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt)
+
+REAL CMD Unicode environment probe: USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4D5VRXXRT657YETY0SJJ1MT\.test-temp\live-trust\profiles\René & Name
+
+WINDOWS René & Name: trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt)
+
+{
+  "model": "preserve me",
+  "custom": {
+    "enabled": true
+  },
+  "trustedWorkspaces": [
+    "C:\\already-trusted",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4D5VRXXRT657YETY0SJJ1MT\\.test-temp\\live-trust\\wt"
+  ]
+}
+
+Linux store remained {"untouched":true}
+
+BEFORE REVIEW FIX René & Name: exit 1; error: refusing to pre-register agy trust: could not resolve Windows agy's USERPROFILE within 5 seconds
+
+REFUSED .test-temp/live-trust/project: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/project' is a primary checkout, not an isolated worktree
+
+REFUSED .test-temp/live-trust/linux-home: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/linux-home' is the home directory, not a task worktree
+
+REFUSED .test-temp/live-trust/wt/sub: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt/sub' is not a worktree root (its root is '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt')
+
+REFUSED .test-temp/live-trust/other-wt: error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/other-wt' is not a worktree of project '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/project'
+
+UNPROVEN PROFILE: error: refusing to pre-register agy trust: cmd.exe did not return an absolute Windows USERPROFILE
+
+INACCESSIBLE PROFILE: error: refusing to pre-register agy trust: Windows agy's USERPROFILE is not an accessible directory
+
+CORRUPT STORE: error: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+error: refusing to pre-register agy trust: could not record trust for '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt' in '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/profiles/René & Name/.gemini/antigravity-cli/settings.json'
+
+PE WITHOUT EXE SUFFIX: trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt)
+
+NATIVE: trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt)
+
+{
+  "model": "native",
+  "trustedWorkspaces": [
+    "/existing",
+    "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link",
+    "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt"
+  ]
+}
+
+NATIVE: trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt)
+
+{
+  "model": "native",
+  "trustedWorkspaces": [
+    "/existing",
+    "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt-link",
+    "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.test-temp/live-trust/wt"
+  ]
+}
+
+MISSING WSLPATH: error: refusing to pre-register agy trust: Windows agy requires wslpath to locate its settings store

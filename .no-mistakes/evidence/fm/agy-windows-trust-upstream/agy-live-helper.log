@@ -1,0 +1,136 @@
+Real installed binary: /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe; version: 1.3.1
+
+Real cmd.exe: /mnt/c/Windows/System32/cmd.exe; real wslpath: /usr/bin/wslpath
+
+Independent Windows path oracle (real wslpath -w): ["\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4D5VRXXRT657YETY0SJJ1MT\\.agy-live.aIUmF3\\worktree"]
+
+fm-agy-trust.sh logical worktree project agy.exe: exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree)
+
+fm-agy-trust.sh logical worktree project agy.exe: exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree)
+
+PASS profile 'Windows profile': Windows UNC entries recorded; all unrelated keys/entries preserved; Linux store byte-identical; repeat byte-identical.
+{
+  "trustedWorkspaces": [
+    "C:\\already-trusted",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4D5VRXXRT657YETY0SJJ1MT\\.agy-live.aIUmF3\\worktree"
+  ],
+  "model": "preserve-existing-model",
+  "custom": {
+    "nested": [
+      1,
+      true,
+      "value"
+    ]
+  }
+}
+
+
+fm-agy-trust.sh logical worktree project agy.exe: exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree)
+
+fm-agy-trust.sh logical worktree project agy.exe: exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree)
+
+PASS profile 'René': Windows UNC entries recorded; all unrelated keys/entries preserved; Linux store byte-identical; repeat byte-identical.
+{
+  "trustedWorkspaces": [
+    "C:\\already-trusted",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4D5VRXXRT657YETY0SJJ1MT\\.agy-live.aIUmF3\\worktree"
+  ],
+  "model": "preserve-existing-model",
+  "custom": {
+    "nested": [
+      1,
+      true,
+      "value"
+    ]
+  }
+}
+
+
+fm-agy-trust.sh logical worktree project agy.exe: exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree)
+
+fm-agy-trust.sh logical worktree project agy.exe: exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree)
+
+PASS profile 'Probe & Name': Windows UNC entries recorded; all unrelated keys/entries preserved; Linux store byte-identical; repeat byte-identical.
+{
+  "trustedWorkspaces": [
+    "C:\\already-trusted",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4D5VRXXRT657YETY0SJJ1MT\\.agy-live.aIUmF3\\worktree"
+  ],
+  "model": "preserve-existing-model",
+  "custom": {
+    "nested": [
+      1,
+      true,
+      "value"
+    ]
+  }
+}
+
+
+fm-agy-trust.sh logical worktree project agy.exe: exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree)
+
+fm-agy-trust.sh logical worktree project agy.exe: exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree)
+
+PASS profile 'René & Name': Windows UNC entries recorded; all unrelated keys/entries preserved; Linux store byte-identical; repeat byte-identical.
+{
+  "trustedWorkspaces": [
+    "C:\\already-trusted",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4D5VRXXRT657YETY0SJJ1MT\\.agy-live.aIUmF3\\worktree"
+  ],
+  "model": "preserve-existing-model",
+  "custom": {
+    "nested": [
+      1,
+      true,
+      "value"
+    ]
+  }
+}
+
+
+PASS System32 fallback: cmd.exe absent on PATH; helper used real C:\Windows\System32\cmd.exe via wslpath.
+
+fm-agy-trust.sh logical worktree project agy.exe: exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree)
+
+PASS PATH cmd.exe route: actual Windows cmd.exe symlink, no command mock.
+
+fm-agy-trust.sh project project agy.exe: exit=1
+error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/project' is a primary checkout, not an isolated worktree
+
+fm-agy-trust.sh subdirectory project agy.exe: exit=1
+error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree/subdirectory' is not a worktree root (its root is '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree')
+
+fm-agy-trust.sh worktree unrelated agy.exe: exit=1
+error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree' is not a worktree of project '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/unrelated'
+
+fm-agy-trust.sh home project agy.exe: exit=1
+error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/home' is the home directory, not a task worktree
+
+PASS scope refusals: primary, subdirectory, unrelated project, and HOME rejected with both stores unchanged.
+
+fm-agy-trust.sh worktree project agy.exe: exit=1
+error: refusing to pre-register agy trust: Windows agy's USERPROFILE is not an accessible directory
+
+PASS unavailable Windows profile: real cmd returned missing isolated profile; helper refused without Linux fallback or settings mutation.
+
+fm-agy-trust.sh logical worktree project true: exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree)
+
+PASS native route: Linux store only, logical and real POSIX paths, existing key retained.
+{
+  "linuxUntouched": true,
+  "trustedWorkspaces": [
+    "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/logical worktree",
+    "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree"
+  ]
+}
+

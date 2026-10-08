@@ -1,0 +1,11 @@
+Verdict: inconclusive; authentication/environment blocker, not a reproduced product test failure.
+
+Executed bin/fm-agy-trust.sh with the resolved installed Windows agy.exe against a fresh linked Git worktree on Linux storage, with all disposable profiles inside the assigned worktree. Registration succeeded; Windows settings contained the exact wslpath-translated worktree path and preserved unrelated keys and the prior trusted entry. Linux settings remained absent.
+
+The initial bare-PTY attempt stalled on a terminal cursor-position query. Corrected the test setup to answer that query, then repeated only this focused live scenario. The second interactive launch ran for approximately 80 seconds in a 120x40 pseudo-terminal with a hard timeout and rendered: 'Welcome to the Antigravity CLI. You are currently not signed in.' It offered Google OAuth and Google Cloud project login. No folder-trust dialog appeared during observation, but authentication precedes the workspace interaction, so this is NOT proof that an authenticated launch bypasses folder trust. No sign-in was attempted and no production credentials were accessed or modified. An authorized preauthenticated disposable profile inside the assigned worktree is needed to complete this scenario within the workspace boundary.
+
+Evidence: agy-live-launch-retry-transcript.txt, agy-live-launch-retry.ansi, agy-live-launch-retry-startup.log in this directory. Startup logs confirm the disposable app-data directory and scratch workspace, and report missing authentication plus UNC-backed profile infrastructure warnings.
+
+User-supplied supporting evidence, not independently verified in this turn: on 2026-10-08 firstmate spawned a Gemini 3.8 Flash agy worker into a fresh worktree using the same trust change and reached a working state without a dialog.
+
+Removed only the scratch trustedWorkspaces entry and verified the unrelated key and previous entry were preserved before deleting the disposable repository, linked worktree, and profiles. No source changes were warranted; no broad suite, linter, formatter, or static analysis was run.

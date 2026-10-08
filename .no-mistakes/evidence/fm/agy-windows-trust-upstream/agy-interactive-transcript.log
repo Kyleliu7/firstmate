@@ -1,0 +1,78 @@
+Installed Windows agy: /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+
+Isolation: USERPROFILE/HOME/APPDATA/LOCALAPPDATA/TEMP all under /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3
+
+Registration command: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree
+
+Persisted settings before launch:
+{
+  "trustedWorkspaces": [
+    "C:\\already-trusted",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4D5VRXXRT657YETY0SJJ1MT\\.agy-live.aIUmF3\\worktree"
+  ],
+  "custom": {
+    "preserve": true
+  }
+}
+
+
+Launch command: tmux -f /dev/null -S .agy-live.aIUmF3/agy-private.sock new-session -d -s agy-trusted -x 120 -y 40 -c /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+
+Observed for 39.1 seconds; no keys submitted and no trust/auth dialog answered.
+
+Final live terminal grid:
+
+     ▄▀▀▄
+    ▀▀▀▀▀▀
+   ▀▀▀▀▀▀▀▀
+  ▄▀▀    ▀▀▄
+ ▄▀▀      ▀▀▄
+
+ Welcome to the Antigravity CLI. You are currently not signed in.
+
+ Select login method:
+ > 1. Google OAuth
+   2. Use a Google Cloud project
+
+   ↑/↓ Navigate · enter Select
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Folder-trust text observed: False; authentication text observed: True. Absence before authentication is NOT a suppression pass.
+
+Private tmux server stopped. Scratch trust entry removed; unrelated entry and custom key retained:
+{
+  "custom": {
+    "preserve": true
+  },
+  "trustedWorkspaces": [
+    "C:\\already-trusted"
+  ]
+}

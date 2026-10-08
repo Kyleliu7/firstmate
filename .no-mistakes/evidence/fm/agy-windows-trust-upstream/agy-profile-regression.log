@@ -1,0 +1,17 @@
+Before fix (f6b98cf); real Windows cmd.exe and real wslpath; isolated profile 'René'; exit=1
+error: refusing to pre-register agy trust: Windows agy's USERPROFILE is not an accessible directory
+
+After fix (164fa9e); real Windows cmd.exe and real wslpath; isolated profile 'René'; exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree
+
+Before fix (f6b98cf); real Windows cmd.exe and real wslpath; isolated profile 'Probe & Name'; exit=1
+error: refusing to pre-register agy trust: could not resolve Windows agy's USERPROFILE within 5 seconds
+
+After fix (164fa9e); real Windows cmd.exe and real wslpath; isolated profile 'Probe & Name'; exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree
+
+Before fix (f6b98cf); real Windows cmd.exe and real wslpath; isolated profile 'René & Name'; exit=1
+error: refusing to pre-register agy trust: could not resolve Windows agy's USERPROFILE within 5 seconds
+
+After fix (164fa9e); real Windows cmd.exe and real wslpath; isolated profile 'René & Name'; exit=0
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4D5VRXXRT657YETY0SJJ1MT/.agy-live.aIUmF3/worktree
