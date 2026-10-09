@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Register a symlinked Linux worktree for Windows agy using the System32 fallback, preserving settings and avoiding the Linux store",
+    "result": "pass",
+    "live": true,
+    "reason": "",
+    "evidence": "live-trust.log"
+  },
+  {
+    "name": "Register accented and ampersand-containing Windows profiles through real cmd.exe without corrupting the profile path",
+    "result": "pass",
+    "live": true,
+    "reason": "",
+    "evidence": "live-trust.log"
+  },
+  {
+    "name": "Omit the executable or select a native executable and keep registration in the Linux profile",
+    "result": "pass",
+    "live": true,
+    "reason": "",
+    "evidence": "live-trust.log"
+  },
+  {
+    "name": "Attempt to trust a primary checkout, home, plain folder, subfolder, and unrelated worktree and observe refusal without profile writes",
+    "result": "pass",
+    "live": true,
+    "reason": "",
+    "evidence": "live-trust.log"
+  },
+  {
+    "name": "Supply malformed Windows settings or an unproven Windows home and observe refusal rather than Linux fallback",
+    "result": "pass",
+    "live": true,
+    "reason": "",
+    "evidence": "live-trust.log"
+  },
+  {
+    "name": "Launch Windows agy in a freshly registered Linux worktree without its folder-trust dialog",
+    "result": "untested",
+    "live": true,
+    "evidence": "agy-interactive.png; agy-interactive.ansi",
+    "reason": "Registered a fresh scratch git worktree using the resolved Windows agy executable and real cmd.exe/wslpath, then ran the real TUI for 45 seconds with a 120x40 drained pty and disposable Windows USERPROFILE, APPDATA, LOCALAPPDATA, HOME, and temp directories. The screen said \"You are currently not signed in\" and offered Google OAuth or a Google Cloud project; it never reached workspace trust. No dialog appeared, but authentication-blocked absence is not proof of suppression. An authorized preauthenticated disposable profile inside the worktree is needed; signing in or copying production credentials is outside this phase authority. Removed only the scratch trust entry, verified other keys preserved, and deleted the scratch repo/profile."
+  }
+]

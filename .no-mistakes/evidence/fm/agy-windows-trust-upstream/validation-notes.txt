@@ -1,0 +1,13 @@
+Oracle: Windows agy consumes USERPROFILE\.gemini\antigravity-cli\settings.json and wslpath -w worktree paths; native launches consume HOME/.gemini/antigravity-cli/settings.json. Scope is a linked worktree belonging to the specified project. Unrelated keys/entries must survive and duplicate trust entries must not be introduced.
+
+Ran only bin/fm-test-run.sh tests/fm-agy-harness.test.sh (54 seconds, exit 0), not the full suite. Its pane/Windows fixtures are supplemental, not live agy evidence.
+
+Ran live-check.py twice. The first run incorrectly expected two Windows entries for a logical symlink and resolved path; real wslpath canonicalized both to the same UNC path. Corrected the driver oracle to require unique translated paths, then re-drove all scenarios successfully. No product change was needed. Both interactive attempts lasted 45 seconds and remained at the unauthenticated login picker. Final artifacts show the second attempt. Neither attempt answered trust or authentication prompts.
+
+Screenshot is a raster rendering of the actual 120x40 terminal grid captured from the real agy pty using pyte/Pillow; original terminal bytes are in agy-interactive.ansi.
+
+Before-fix helper from the base commit reproduced the wrong-profile behavior against the same disposable setup. Current helper recorded UNC trust in the Windows profile without touching the Linux store.
+
+Workspace-local Python venv creation initially lacked ensurepip; installed pyte/Pillow into that same workspace-local venv through available uv instead. No system packages/configuration changed. Deleted all disposable profiles, repos, temp files, tools and driver from the worktree after evidence capture. Production credentials/fleet state were not accessed or changed.
+
+For readable CLI evidence, removed UTF-16 NUL padding from the ASCII cmd.exe UNC-cwd warning in live-trust.log; decoded USERPROFILE and persisted settings were already recorded independently.

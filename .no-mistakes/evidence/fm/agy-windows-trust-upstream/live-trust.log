@@ -1,0 +1,411 @@
+$ git init /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project
+Initialized empty Git repository in /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+
+exit=0
+
+$ git -C /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project commit --allow-empty -m disposable fixture
+[master (root-commit) b08b59f] disposable fixture
+
+exit=0
+
+$ git -C /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project worktree add -b scratch /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt
+HEAD is now at b08b59f disposable fixture
+Preparing worktree (new branch 'scratch')
+
+exit=0
+
+$ git init /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/other
+Initialized empty Git repository in /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/other/.git/
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+
+exit=0
+
+$ git -C /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/other commit --allow-empty -m disposable fixture
+[master (root-commit) b08b59f] disposable fixture
+
+exit=0
+
+$ git -C /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/other worktree add -b foreign /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/foreign
+HEAD is now at b08b59f disposable fixture
+Preparing worktree (new branch 'foreign')
+
+exit=0
+
+Real selected executable: /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+Real Windows cmd: /mnt/c/Windows/System32/cmd.exe
+
+Real wslpath logical/resolved translations: ['\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4F2GTEY0RAXNV119TBKP5JY\\.test-windows-trust\\live\\wt']
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /home/dapang/.local/bin/agy
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt)
+
+exit=0
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt)
+
+exit=0
+
+Persisted Windows public settings contract:
+{
+  "model": "keep me",
+  "trustedWorkspaces": [
+    "C:\\existing-workspace",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4F2GTEY0RAXNV119TBKP5JY\\.test-windows-trust\\live\\wt"
+  ],
+  "custom": {
+    "boolean": true,
+    "number": 17
+  }
+}
+
+Linux store stayed unchanged; repeat registration is byte-identical.
+
+$ /mnt/c/Windows/System32/cmd.exe /d /u /c set USERPROFILE
+USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\René
+'\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY'
+
+CMD.EXE was started with the above path as the current directory.
+
+UNC paths are not supported.  Defaulting to Windows directory.
+
+
+exit=0
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt)
+
+exit=0
+
+UTF-16 Windows environment listing (decoded): USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\René
+Persisted settings: {
+  "model": "keep me",
+  "trustedWorkspaces": [
+    "C:\\existing-workspace",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4F2GTEY0RAXNV119TBKP5JY\\.test-windows-trust\\live\\wt"
+  ],
+  "custom": {
+    "boolean": true,
+    "number": 17
+  }
+}
+
+
+$ /mnt/c/Windows/System32/cmd.exe /d /u /c set USERPROFILE
+USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\René
+'\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY'
+
+CMD.EXE was started with the above path as the current directory.
+
+UNC paths are not supported.  Defaulting to Windows directory.
+
+
+exit=0
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt)
+
+exit=0
+
+UTF-16 Windows environment listing (decoded): USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\René
+Persisted settings: {
+  "model": "keep me",
+  "trustedWorkspaces": [
+    "C:\\existing-workspace",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4F2GTEY0RAXNV119TBKP5JY\\.test-windows-trust\\live\\wt"
+  ],
+  "custom": {
+    "boolean": true,
+    "number": 17
+  }
+}
+
+
+$ /mnt/c/Windows/System32/cmd.exe /d /u /c set USERPROFILE
+USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\Probe & Name
+'\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY'
+
+CMD.EXE was started with the above path as the current directory.
+
+UNC paths are not supported.  Defaulting to Windows directory.
+
+
+exit=0
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt)
+
+exit=0
+
+UTF-16 Windows environment listing (decoded): USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\Probe & Name
+Persisted settings: {
+  "model": "keep me",
+  "trustedWorkspaces": [
+    "C:\\existing-workspace",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4F2GTEY0RAXNV119TBKP5JY\\.test-windows-trust\\live\\wt"
+  ],
+  "custom": {
+    "boolean": true,
+    "number": 17
+  }
+}
+
+
+$ /mnt/c/Windows/System32/cmd.exe /d /u /c set USERPROFILE
+USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\Probe & Name
+'\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY'
+
+CMD.EXE was started with the above path as the current directory.
+
+UNC paths are not supported.  Defaulting to Windows directory.
+
+
+exit=0
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt)
+
+exit=0
+
+UTF-16 Windows environment listing (decoded): USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\Probe & Name
+Persisted settings: {
+  "model": "keep me",
+  "trustedWorkspaces": [
+    "C:\\existing-workspace",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4F2GTEY0RAXNV119TBKP5JY\\.test-windows-trust\\live\\wt"
+  ],
+  "custom": {
+    "boolean": true,
+    "number": 17
+  }
+}
+
+
+$ /mnt/c/Windows/System32/cmd.exe /d /u /c set USERPROFILE
+USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\René & Name
+'\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY'
+
+CMD.EXE was started with the above path as the current directory.
+
+UNC paths are not supported.  Defaulting to Windows directory.
+
+
+exit=0
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt)
+
+exit=0
+
+UTF-16 Windows environment listing (decoded): USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\René & Name
+Persisted settings: {
+  "model": "keep me",
+  "trustedWorkspaces": [
+    "C:\\existing-workspace",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4F2GTEY0RAXNV119TBKP5JY\\.test-windows-trust\\live\\wt"
+  ],
+  "custom": {
+    "boolean": true,
+    "number": 17
+  }
+}
+
+
+$ /mnt/c/Windows/System32/cmd.exe /d /u /c set USERPROFILE
+USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\René & Name
+'\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY'
+
+CMD.EXE was started with the above path as the current directory.
+
+UNC paths are not supported.  Defaulting to Windows directory.
+
+
+exit=0
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt)
+
+exit=0
+
+UTF-16 Windows environment listing (decoded): USERPROFILE=\\wsl.localhost\Ubuntu\home\dapang\.no-mistakes\worktrees\1b1cc12b950a\01M4F2GTEY0RAXNV119TBKP5JY\.test-windows-trust\live\René & Name
+Persisted settings: {
+  "model": "keep me",
+  "trustedWorkspaces": [
+    "C:\\existing-workspace",
+    "\\\\wsl.localhost\\Ubuntu\\home\\dapang\\.no-mistakes\\worktrees\\1b1cc12b950a\\01M4F2GTEY0RAXNV119TBKP5JY\\.test-windows-trust\\live\\wt"
+  ],
+  "custom": {
+    "boolean": true,
+    "number": 17
+  }
+}
+
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt)
+
+exit=0
+
+Native Linux persisted settings:
+{
+  "model": "keep me",
+  "trustedWorkspaces": [
+    "C:\\existing-workspace",
+    "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link",
+    "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt"
+  ],
+  "custom": {
+    "boolean": true,
+    "number": 17
+  }
+}
+
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /bin/bash
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt)
+
+exit=0
+
+Native Linux persisted settings:
+{
+  "model": "keep me",
+  "trustedWorkspaces": [
+    "C:\\existing-workspace",
+    "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link",
+    "/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt"
+  ],
+  "custom": {
+    "boolean": true,
+    "number": 17
+  }
+}
+
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project' is a primary checkout, not an isolated worktree
+
+exit=1
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/linux-home /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/linux-home' is the home directory, not a task worktree
+
+exit=1
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/plain /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/plain' is not a worktree root (its root is '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY')
+
+exit=1
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt/subdirectory /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt/subdirectory' is not a worktree root (its root is '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt')
+
+exit=1
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/foreign /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+error: refusing to pre-register agy trust: '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/foreign' is not a worktree of project '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project'
+
+exit=1
+
+All scope refusals left both profiles byte-identical.
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+error: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+error: refusing to pre-register agy trust: could not record trust for '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt' in '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/Windows profile/.gemini/antigravity-cli/settings.json'
+
+exit=1
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+error: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/Windows profile/.gemini/antigravity-cli/settings.json has a non-array "trustedWorkspaces" value
+error: refusing to pre-register agy trust: could not record trust for '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt' in '/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/Windows profile/.gemini/antigravity-cli/settings.json'
+
+exit=1
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+error: refusing to pre-register agy trust: cmd.exe did not return an absolute Windows USERPROFILE
+
+exit=1
+
+Malformed settings and nonabsolute Windows USERPROFILE were refused; both profiles preserved.
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/baseline-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt-link (/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt)
+
+exit=0
+
+Before-fix helper reproduced the reported wrong-profile behavior: Windows settings unchanged, Linux trust written.
+
+$ /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/bin/fm-agy-trust.sh /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/project /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe
+trusted: /home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt
+
+exit=0
+
+Interactive launch: /mnt/c/Users/bryan/AppData/Local/Packages/OpenAI.Codex_2p2nqsd0c76g0/LocalCache/Local/agy/bin/agy.exe, cwd=/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/wt, disposable USERPROFILE=/home/dapang/.no-mistakes/worktrees/1b1cc12b950a/01M4F2GTEY0RAXNV119TBKP5JY/.test-windows-trust/live/Windows profile, pty=120x40, elapsed=45.1s. No trust answer or login was sent.
+
+Final real terminal grid:
+                                                                                                                        
+     ▄▀▀▄                                                                                                               
+    ▀▀▀▀▀▀                                                                                                              
+   ▀▀▀▀▀▀▀▀                                                                                                             
+  ▄▀▀    ▀▀▄                                                                                                            
+ ▄▀▀      ▀▀▄                                                                                                           
+                                                                                                                        
+ Welcome to the Antigravity CLI. You are currently not signed in.                                                       
+                                                                                                                        
+ Select login method:                                                                                                   
+ > 1. Google OAuth                                                                                                      
+   2. Use a Google Cloud project                                                                                        
+                                                                                                                        
+   ↑/↓ Navigate · enter Select                                                                                          
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+
+Removed the scratch trust entry; every other settings key and existing trust entry preserved. Disposable repos and profiles deleted.
